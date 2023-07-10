@@ -1,0 +1,160 @@
+@keyframes descer {
+    from{
+        transform: translatex(100%);
+    }
+    to{
+        transform: translatex(0);
+    }
+    
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: -7px;
+    height: 80px;
+    animation: descer 1s 1 linear;
+  }
+  body{
+    background-color: #F8F8FF;
+  }
+  
+  .logomarca {
+    height: 150px;
+    margin-left: -100px;
+  }
+  
+  nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul.menu li {
+    display: inline-block;
+  }
+  
+  nav ul.menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav ul.menu li a:hover {
+    background-color: #ccc;
+  }
+  #pesquisa{
+    margin-top: +9px;
+  }
+
+  @keyframes carrosel {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  }
+  
+  #carrosel {
+    display: flex;
+    margin-top: 15px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: 	#F0FFF0;
+    overflow: hidden;
+  }
+  
+  .bloco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 25%;
+    animation: carrosel 40s infinite linear;
+  }
+  #onibus{
+    height: 100px;
+  }
+  #shein{
+    height: 100px;
+  }
+  #sidoka{
+    height: 100px;
+  }
+  #ufmg{
+    height: 100px;
+  }
+  .texto{
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  .texto h1{
+    color: red;
+    font-size: 20px;
+  }
+ mark{
+    background-color:#E6E6FA;
+ }
+
+  #mineirao{
+    height: 350px;
+  }
+  #noticia1{
+    display: flex;
+  }
+  #text{
+    margin-left: 5px;
+  }
+  #conjunto1{
+    display: flex;
+    align-items: normal;
+  }
+  #disney{
+    height: 300px;
+  }
+  #golpe{
+    height: 250px;
+  }
+  #bh{
+    height: 400px;
+  }
+  #noticia2 a:link{
+    color: #333;
+    text-decoration: none;
+  }
+  #noticia2 a:visited{
+    color: #DA70D6;
+    text-decoration: none;
+  }
+  #noticia2 a:hover{
+    color: #DA70D6;
+    text-decoration: underline;
+  }
+  #noticia3{
+    margin-left: 455px;
+  }
+  #conjunto2{
+    display: flex;
+    align-items: normal;
+  }
+  #noticia5{
+    margin-left: 300px;
+  }
+  footer{
+    background-color: #ccc;
+    display: flex;
+    align-items: normal;
+    padding: 10px;
+    margin: -7px;
+    
+  }
+  #quemsomos{
+    margin-left: 50px;
+  }
+  
